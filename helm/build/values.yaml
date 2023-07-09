@@ -1,0 +1,16 @@
+app:
+  name: test
+  namespace: test-dev
+  cluster: .apps.cluster-cl4w8.cl4w8.sandbox526.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/LiorJanus/test
+  org: LiorJanus
+  name: test
+
+image:
+  registry: Openshift
+  host: image-registry.openshift-image-registry.svc:5000
+  organization: 
+  name: test
